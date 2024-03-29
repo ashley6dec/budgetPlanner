@@ -1,0 +1,121 @@
+.budget-planner {
+    
+   width:70vw;
+    padding: 1rem;
+    border: 1px solid #c10a0a;
+    border-radius: 5px;
+    background-color: #f19f9f;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .exp{
+    display:flex;
+  }
+  .remaining {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+    color:green;
+    
+  }
+  input{
+    padding:0.5rem;
+    border: 2px solid #c10a0a;
+    width:20vw;
+  }
+  .expenses {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .expenses li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color:rgb(20, 20, 82);
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+  
+  .expense-name {
+    flex-grow: 1;
+    
+   
+  }
+  .btn{
+    padding: 5px 10px;
+    background-color: #e66626;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #e06e5c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #f31d05;
+  }
+  .budget-planner {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .remaining {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .exp{
+    display:flex;
+ 
+  }
+  .expenses {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expenses li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .expense-name {
+    flex-grow: 1;
+  }
+  
+
+ 
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .budget-planner {
+      max-width: 100%;
+    }
+    .exp{
+        display:flex;
+        flex-direction: column;
+    }
+    .expenses li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .delete-btn {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  }
